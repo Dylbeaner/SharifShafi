@@ -1,6 +1,41 @@
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.header, .footer {
+    text-align: center;
+    display: flex;
+    flex-shrink: 0;
+}
 
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
 
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.body-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    overflow: hidden;
 }
