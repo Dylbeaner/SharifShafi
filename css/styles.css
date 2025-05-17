@@ -39,3 +39,11 @@ main {
     border: none;
     overflow: hidden;
 }
+
+nav {
+    display: flex;
+    gap: 2rem;
+    /*Find a way to not need this*/
+    justify-content: center;
+    padding: 1rem;
+}
