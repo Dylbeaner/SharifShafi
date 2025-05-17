@@ -46,4 +46,6 @@ nav {
     /*Find a way to not need this*/
     justify-content: center;
     padding: 1rem;
+    /*Temp*/
+    background-color: silver;
 }
