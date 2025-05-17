@@ -1,4 +1,40 @@
 
+:root {
+    --base-color: white;
+    --text-color: black;
+
+
+}
+
+.darkmode {
+    --base-color: black;
+    --text-color: white;
+
+
+}
+
+#dark-light {
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Hides last one*/
+#dark-light svg:last-child {
+    display: none;
+}
+.darkmode #dark-light svg:first-child {
+    display: none;
+}
+.darkmode #dark-light svg:last-child {
+    display: block;
+}
+
 html, body {
     margin: 0;
     padding: 0;
