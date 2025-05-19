@@ -14,11 +14,14 @@
 }
 
 #dark-light {
+    position: absolute;
+    right: 10%;
+    top : 15%;
     height: 35px;
     width: 35px;
     padding: 0;
     border-radius: 50%;
-    background-color: var(--base-color);
+    /*background-color: var(--text-color);*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +48,9 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    color: var(--text-color);
+    background-color: var(--base-color);
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .header, .footer {
@@ -83,5 +89,6 @@ nav {
     justify-content: center;
     padding: 1rem;
     /*Temp*/
-    background-color: silver;
+    background-color: var(--text-color );
+    position: relative;
 }
