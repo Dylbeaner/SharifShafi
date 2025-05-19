@@ -33,3 +33,10 @@ function LnDModeSetup() {
         darkMode !== "active" ? enableDarkMode() : disableDarkMode()
     })
 }
+
+/*Loading Screen is done*/
+window.addEventListener("load", () => {
+    const loaded = document.getElementById("loading");
+    loaded.classList.add("loaded");
+    setTimeout(() => loaded.remove(), 2000);
+});
