@@ -89,6 +89,6 @@ nav {
     justify-content: center;
     padding: 1rem;
     /*Temp*/
-    background-color: var(--text-color );
+    background-color: var(--text-color);
     position: relative;
 }
