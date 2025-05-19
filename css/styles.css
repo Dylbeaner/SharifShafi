@@ -6,7 +6,7 @@
 
 }
 
-.darkmode {
+.darkMode {
     --base-color: black;
     --text-color: white;
 
@@ -31,10 +31,10 @@
 #dark-light svg:last-child {
     display: none;
 }
-.darkmode #dark-light svg:first-child {
+.darkMode #dark-light svg:first-child {
     display: none;
 }
-.darkmode #dark-light svg:last-child {
+.darkMode #dark-light svg:last-child {
     display: block;
 }
 
