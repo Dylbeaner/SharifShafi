@@ -86,9 +86,21 @@ nav {
     display: flex;
     gap: 2rem;
     /*Find a way to not need this*/
-    justify-content: center;
+    /*justify-content: center;*/
     padding: 1rem;
+    justify-content: left;
+    /*TODO ADD MORE HERE*/
     /*Temp*/
     background-color: var(--text-color);
     position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--base-color);
+
+}
+
+nav a:hover {
+    color:silver;
 }
