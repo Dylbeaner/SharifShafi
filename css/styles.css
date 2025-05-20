@@ -84,7 +84,7 @@ main {
 
 nav {
     display: flex;
-    gap: 2rem;
+    gap: 10px;
     justify-content: left;
     align-items: stretch;
     /*Temp*/
@@ -102,6 +102,7 @@ nav a {
     background-color: var(--text-color);
     justify-content: center;
     align-items: center;
+    font-size: 1.2rem;
 }
 
 nav a:hover {
