@@ -109,5 +109,6 @@ nav a:hover {
     /*Trying, for now*/
     /*color:var(--secondary-color);*/
     background-color: lightgray;
+    /*This should work*/
     color: black;
 }
